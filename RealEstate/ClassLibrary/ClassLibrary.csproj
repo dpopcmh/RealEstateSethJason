@@ -41,7 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buyer.cs" />
+<<<<<<< HEAD
     <Compile Include="Program.cs" />
+=======
+>>>>>>> 45e0a27823ad57d658988713a2ca262cdffe762b
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Realtor.cs" />
