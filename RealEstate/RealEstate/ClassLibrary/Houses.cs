@@ -28,7 +28,7 @@ namespace ClassLibrary
         private ushort _Bedrooms;
         public ushort Bedrooms { get; set; }
 
-        private bool _Basement
+        private bool _Basement;
         public bool Basement { get; set; }
 
         private ushort _PropertySize;
