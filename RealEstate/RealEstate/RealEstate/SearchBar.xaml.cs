@@ -10,41 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace RealEstate
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for SearchBar.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class SearchBar : Window
     {
-        public MainWindow()
+        public SearchBar()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Search_Click(object sender, RoutedEventArgs e)
         {
+           
+            
             //mark this window as invisible 
 
             this.Hide();
 
-
-            //show the other window instead   
-
-            var loginWindow = Application.Current.Windows.OfType(<Window1>).FirstOrDefault();
-
-            if (loginWindow == null)
-
-            {
-
-                loginWindow = new Window1();
-
-            }
-
-            loginWindow.Show();
         }
     }
 }
