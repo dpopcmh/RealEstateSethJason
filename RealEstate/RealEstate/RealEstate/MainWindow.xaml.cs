@@ -24,27 +24,5 @@ namespace RealEstate
         {
             InitializeComponent();
         }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            //mark this window as invisible 
-
-            this.Hide();
-
-
-            //show the other window instead   
-
-            var loginWindow = Application.Current.Windows.OfType(<Window1>).FirstOrDefault();
-
-            if (loginWindow == null)
-
-            {
-
-                loginWindow = new Window1();
-
-            }
-
-            loginWindow.Show();
-        }
     }
 }

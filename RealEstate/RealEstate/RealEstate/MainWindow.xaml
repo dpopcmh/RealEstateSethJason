@@ -6,13 +6,7 @@
         xmlns:local="clr-namespace:RealEstate"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Background="#FF00F3FF">
-        <Button x:Name="LoginWindow" Content="Button" HorizontalAlignment="Left" Height="19" Margin="210,231,0,0" VerticalAlignment="Top" Width="67" Click="Button_Click"/>
-        <TextBlock x:Name="UserLogin" HorizontalAlignment="Left" Height="19" Margin="142,122,0,0" TextWrapping="Wrap" Text="Enter in user name" VerticalAlignment="Top" Width="219" Background="#FFF1F0F0"/>
-        <TextBlock x:Name="UserPassword" HorizontalAlignment="Left" Height="19" Margin="142,161,0,0" TextWrapping="Wrap" Text="Enter in password" VerticalAlignment="Top" Width="219" Foreground="Black" Background="White"/>
-        <Image x:Name="user_icon" HorizontalAlignment="Left" Height="19" Margin="123,122,0,0" VerticalAlignment="Top" Width="14" Source="Icons/usericon.png" Stretch="Fill"/>
-        <Image x:Name="user_icon_Copy" HorizontalAlignment="Left" Height="19" Margin="123,161,0,0" VerticalAlignment="Top" Width="14" Source="Icons/password.png" Stretch="Fill"/>
-        <TextBox x:Name="Login_screen" HorizontalAlignment="Left" Height="31" Margin="175,65,0,0" TextWrapping="Wrap" Text="Login Screen" VerticalAlignment="Top" Width="172" Background="{x:Null}" FontWeight="Bold" FontSize="20" Foreground="Black" BorderBrush="{x:Null}"/>
-
+    <Grid>
+        
     </Grid>
 </Window>
