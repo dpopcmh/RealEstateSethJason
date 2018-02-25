@@ -8,23 +8,36 @@ namespace ClassLibrary
 {
     public class Realtor
     {
+
+        //CTQR
+
+        public Realtor(string firstname, string lastname, string officestreetname, ushort officenumber, ushort officezipcode)
+        {
+            _firstname = firstname;
+            _lastname = lastname;
+            _officestreetname = officestreetname;
+            _officenumber = officenumber;
+            _officezipcode = officezipcode;
+        }
+
         //Properties Go Here
-        private string _FirstName;
-        public string FirstName { get; set; }
+        private string _firstname;
+        public string firstname { get; set; }
 
-        private string _LastName;
-        public string LastName { get; set; }
+        private string _lastname;
+        public string lastname { get; set; }
 
-        private string _OfficeStreetName;
-        public string OfficeStreetName { get; set; }
+        private string _officestreetname;
+        public string officestreetname { get; set; }
 
-        private ushort _OfficeNumber;
-        public ushort OfficeNumber { get; set; }
+        private ushort _officenumber;
+        public ushort officenumber { get; set; }
 
-        private ushort _OfficeZipCode;
-        public ushort OfficeZipCode { get; set; }
+        private ushort _officezipcode;
+        public ushort officezipcode { get; set; }
+
 
         //Methods Go Here
-      
+
     }
 }

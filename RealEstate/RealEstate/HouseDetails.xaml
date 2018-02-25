@@ -1,0 +1,14 @@
+﻿<Window x:Class="RealEstate.HouseDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RealEstate"
+        mc:Ignorable="d"
+        Title="HouseDetails" Height="300" Width="300">
+    <Grid>
+        <TextBlock x:Name="House_Details" HorizontalAlignment="Left" Height="29" Margin="73,10,0,0" TextWrapping="Wrap" Text="House Information" VerticalAlignment="Top" Width="172" FontSize="20"/>
+        <Image x:Name="HousePicture" HorizontalAlignment="Left" Height="65" Margin="15,50,0,0" VerticalAlignment="Top" Width="95" Source="HousePhotos/search-houses.jpg" Stretch="Fill"/>
+        
+    </Grid>
+</Window>
