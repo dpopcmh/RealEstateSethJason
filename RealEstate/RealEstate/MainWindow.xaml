@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid Background="#FF00F3FF">
-        <Button x:Name="LoginWindow" Content="Button" HorizontalAlignment="Left" Height="19" Margin="210,231,0,0" VerticalAlignment="Top" Width="67" Click="Button_Click"/>
+        <Button x:Name="LoginWindow" Content="Button" HorizontalAlignment="Left" Height="19" Margin="210,231,0,0" VerticalAlignment="Top" Width="67" Click="LoginWindow_Click"/>
         <TextBlock x:Name="UserLogin" HorizontalAlignment="Left" Height="19" Margin="142,122,0,0" TextWrapping="Wrap" Text="Enter in user name" VerticalAlignment="Top" Width="219" Background="#FFF1F0F0"/>
         <TextBlock x:Name="UserPassword" HorizontalAlignment="Left" Height="19" Margin="142,161,0,0" TextWrapping="Wrap" Text="Enter in password" VerticalAlignment="Top" Width="219" Foreground="Black" Background="White"/>
         <Image x:Name="user_icon" HorizontalAlignment="Left" Height="19" Margin="123,122,0,0" VerticalAlignment="Top" Width="14" Source="Icons/usericon.png" Stretch="Fill"/>

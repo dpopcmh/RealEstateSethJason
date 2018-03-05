@@ -24,5 +24,22 @@ namespace RealEstate
         {
             InitializeComponent();
         }
+
+        private void LoginWindow_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            var LoginWindow = Application.Current.Windows.OfType<SearchBar>().FirstOrDefault();
+
+
+            if (LoginWindow == null)
+
+            {
+
+                LoginWindow = new SearchBar();
+
+            }
+
+            LoginWindow.Show();
+        }
     }
 }
