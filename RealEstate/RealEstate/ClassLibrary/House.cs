@@ -15,7 +15,7 @@ namespace ClassLibrary
 
         }
         //CTQR 
-        public House(ushort housenumber, ushort zipcode, ulong askingprice, Single bathrooms, ushort bedrooms, float propertysize, string city, string state, int hoafees)
+        public House(ushort housenumber, ushort zipcode, ulong askingprice, Single bathrooms, ushort bedrooms, float propertysize, string city, string state, int hoafees, string streetname)
         {
             _houseNumber = housenumber;
             _zipcode = zipcode;
@@ -33,7 +33,7 @@ namespace ClassLibrary
             _zonedtype = zonedtype;
             _pricepersqrfoot = pricepersqrfoot;
             _leaseorown = leaseorown;
-
+            _streetName = streetname;
 
         }
 
@@ -94,7 +94,6 @@ namespace ClassLibrary
         public string leaseorown { get; set; }
 
        
-      
     }
 }
 

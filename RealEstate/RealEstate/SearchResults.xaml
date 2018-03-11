@@ -5,10 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RealEstate"
         mc:Ignorable="d"
-        Title="SearchResults" Height="300" Width="300">
-    <Grid Background="#FF00F3FF">
-        <Grid HorizontalAlignment="Left" Height="124" Margin="59,62,0,0" VerticalAlignment="Top" Width="170"/>
-        <TextBlock x:Name="House_Results" HorizontalAlignment="Left" Height="25" Margin="74,10,0,0" TextWrapping="Wrap" Text="House Results" VerticalAlignment="Top" Width="144" FontSize="20"/>
+        Title="SearchResults" Height="544.538" Width="804.202">
+    <Grid Background="#FF00F3FF" Margin="0,0,-8,-2">
+        <TextBlock x:Name="House_Results" HorizontalAlignment="Left" Height="36" Margin="74,10,0,0" TextWrapping="Wrap" Text="House Results" VerticalAlignment="Top" Width="310" FontSize="24"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" Height="450" Width="782" CanUserSortColumns="True" VerticalScrollBarVisibility="Visible" AutoGenerateColumns="False" SelectionChanged="dataGrid_SelectionChanged" >
+            <DataGrid.Columns>
 
+                <DataGridTextColumn Header="Address" Binding="{Binding streetName}" />
+                <DataGridTextColumn Header="Zip" Binding="{Binding Zip}" />
+                <DataGridTextColumn Header="State" Binding="{Binding State}" />
+                <DataGridTextColumn Header="Sqft" Binding="{Binding Sqft}" />
+                <DataGridTextColumn Header="Bedroom" Binding="{Binding Bedroom}" />
+                <DataGridTextColumn Header="Bathroom" Binding="{Binding Bathroom}" />
+                <DataGridTextColumn Header="Cost" Binding="{Binding Cost}" />
+                <DataGridTextColumn Header="HOA" Binding="{Binding HOA}" />
+                <DataGridTextColumn Header="Lease" Binding="{Binding Lease}" />
+                <DataGridTextColumn Header="Pets" Binding="{Binding Pets}" />
+                <DataGridTextColumn Header="Smoking" Binding="{Binding Smoking}" />
+                <DataGridTextColumn Header="Unit number" Binding="{Binding Unitnumber}" />
+
+
+
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
