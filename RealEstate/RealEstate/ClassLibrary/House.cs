@@ -46,14 +46,14 @@ namespace ClassLibrary
         private ushort _houseNumber;
         public ushort houseNumber { get; set; }
 
-        private ushort _zipcode;
-        public ushort zipcode { get; set; }
+        private int _zipcode;
+        public int zipcode { get; set; }
 
         private ulong _askingprice;
         public ulong askingprice { get; set; }
 
-        private Single _bathrooms;
-        public Single bathrooms { get; set; }
+        private double _bathrooms;
+        public double bathrooms { get; set; }
 
         private ushort _bedrooms;
         public ushort bedrooms { get; set; }

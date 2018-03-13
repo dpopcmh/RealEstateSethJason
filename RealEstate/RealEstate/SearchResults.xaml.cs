@@ -24,14 +24,14 @@ namespace RealEstate
     /// </summary>
     public partial class SearchResults : Window
     {
-        ObservableCollection<House> Propertys = new ObservableCollection<House>();
+        ObservableCollection<House> Houses = new ObservableCollection<House>();
 
         public SearchResults()
         {
             InitializeComponent();
 
-            House p = new House() { streetName = "Ehrgood ", houseNumber = "1121", zipcode = "97914", askingprice = "120,000", bathrooms = "2.5", bedrooms = "3", propertySize = "1200 ", city = "Ontario", state = "Oregon", hoafees = "0", leaselength = "30 Years", pets = "Yes", unitnumber = "14", smoking = "yes", zonedtype = "", pricepersqrfoot = "", leaselength = ''};
-            Houses.add(p);
+            House p = new House() { streetName = "Ehrgood ", houseNumber = 1121, zipcode = 97914, askingprice = 120000, bathrooms = 2.5, bedrooms = 3, propertySize = 1200, city = "Ontario", state = "Oregon", hoafees = 0, leaselength = 360, pets = true, unitnumber = 14, smoking = true, zonedtype = "", pricepersqrfoot = 50};
+            Houses.Add(p);
 
             p = new House() { streetName = "Park street", houseNumber = "1478", zipcode = "97914", askingprice = "170,000", bathrooms = "2", bedrooms = "5", propertySize = "2200 ", city = "Ontario", state = "Oregon", hoafees = "600", leaselength = "30 Years", pets = "No", unitnumber = "69", smoking = "no" };
             Houses.add(p);
